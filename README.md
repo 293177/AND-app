@@ -5,10 +5,12 @@ My proposal idea is an app where you could seek for help for plants care. I've h
 
 MoSCoW requirements:
 
-It must have information about all the plants.
+• It must have information about all the plants.
 
-It should have an option to add/save plants to your own profile, it should have a tracking system for watering the plants.
+• It should have an option to add/save plants to your own profile, it should have a tracking system for watering the plants. It should have an easy interactive design.
 
-It could have a friend system to share plants with each other.
+• It could have a friend system to share plants with each other.
 
-It won't have.
+• It won't have security matters.
+
+This requirements will be updated.
