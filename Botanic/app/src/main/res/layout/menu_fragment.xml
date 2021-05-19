@@ -36,6 +36,12 @@
                     android:textColor="@color/darkTextColor"
                     android:textSize="24sp"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/plant"/>
 
                 <Button
                     android:id="@+id/btnLogOut"
