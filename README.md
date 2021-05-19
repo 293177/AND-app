@@ -7,9 +7,9 @@ MoSCoW requirements:
 
 • It must have information about all the plants.
 
-• It should have an option to add/save plants to your own profile, it should have a tracking system for watering the plants. It should have an easy interactive design.
+• It should have an option to add plants to the database, it should have a tracking system for watering the plants. It should have an easy interactive design.
 
-• It could have a friend system to share plants with each other.
+• It could have a friend system to share plants with each other, and a trivial game about plants.
 
 • It won't have security matters.
 
