@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddPlants_Fragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context =".plant_info">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:fontFamily="@font/architects_daughter"
+                android:text="Add a new Plant"
+                android:textAlignment="center"
+                android:textColor="@color/darkTextColor"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="90"
+                android:background="@color/textColor"
+                android:orientation="horizontal">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@color/cardColor">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp">
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:text="General"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"/>
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Plant Name"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddPlantName"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="name of plant"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Picture"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:id="@+id/btnPicture"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="30"
+                                    android:text="Take Picture"
+                                    android:backgroundTint="@color/textColor"
+                                    android:textColor="@color/black"
+                                    />
+
+                                <Button
+                                    android:id="@+id/btnGallery"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="30"
+                                    android:backgroundTint="@color/textColor"
+                                    android:text="Open Gallery"
+                                    />
+
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Season"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddSeason"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="name of the season"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Watering"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddWatering"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="watering level"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Sunlight"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddSunlight"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="sunlight level"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Temperature"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddTemperature"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="temperature degrees"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Life Span"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddLifeSpan"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="life span of plant"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Weeks to harvest"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddWeeksToHarvest"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="amount of weeks"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center|right"
+                                    android:text="Origin"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddOrigin"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="origin of plant"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center"
+                                    android:text="Pollination"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddPollination"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="Does the plant need pollination to grow?"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="40"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:gravity="center"
+                                    android:text="Cat Friendly"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <EditText
+                                    android:id="@+id/txtAddCatFriendly"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:ems="10"
+                                    android:gravity="center_vertical"
+                                    android:hint="Is the plant suitable for a cat?"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="1"
+                                    android:maxLength="100"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="false" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="100"
+                                    android:fontFamily="@font/architects_daughter"
+                                    android:text="Notes"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/textColor"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/txtAddNotes"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="100"
+                                    android:ems="10"
+                                    android:hint="notes (optional)"
+                                    android:inputType="textCapSentences|textMultiLine"
+                                    android:lines="3"
+                                    android:maxLength="1000"
+                                    android:maxLines="3"
+                                    android:scrollHorizontally="false"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSavePlant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="bottom|center"
+                    android:paddingLeft="5dp"
+                    android:text="Save"
+                    android:textColor="@color/darkTextColor"
+                    android:textSize="40sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269245304720",
+    "project_id": "botanic-e2a3e",
+    "storage_bucket": "botanic-e2a3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269245304720:android:841254ce941ffe1199ad15",
+        "android_client_info": {
+          "package_name": "com.example.botanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269245304720-5gh59g45mru1c8egp11e9nlj7rlnh3fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpfgwD4DIbuwuNxQtuciO7qS-URsTHs3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269245304720-5gh59g45mru1c8egp11e9nlj7rlnh3fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

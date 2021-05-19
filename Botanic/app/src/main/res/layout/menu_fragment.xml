@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Menu_Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context=".Main_Window">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center_vertical"
+                    android:text="Botanic"
+                    android:textColor="@color/darkTextColor"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLogOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:text="Log out"
+                    android:textColor="@color/darkTextColor"
+                    android:textSize="20sp"
+                    android:onClick="signOut"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnPlantInfo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:background="#00FFFFFF"
+                android:fontFamily="@font/architects_daughter"
+                android:paddingLeft="20sp"
+                android:text="Plant Info"
+                android:textColor="@color/darkTextColor"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnGarden"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:background="#00FFFFFF"
+                android:fontFamily="@font/architects_daughter"
+                android:paddingLeft="20sp"
+                android:text="Garden(work in progress...)"
+                android:textColor="@color/darkTextColor"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
