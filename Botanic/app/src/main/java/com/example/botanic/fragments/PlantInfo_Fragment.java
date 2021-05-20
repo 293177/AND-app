@@ -121,7 +121,6 @@ public class PlantInfo_Fragment extends Fragment implements View.OnClickListener
 
         else {
             makeToast("[ERROR] Menu parameter passed was not found, returning to main menu...");
-            System.out.println("[ERROR] Menu parameter passed was not found, returning to main menu...\n");
 
             mainActivity.changeFragment("MainMenu");
         }
@@ -163,7 +162,7 @@ public class PlantInfo_Fragment extends Fragment implements View.OnClickListener
     private void openConfirmationDialog(Context context) {
         new AlertDialog.Builder(context)
                 .setTitle("Are You Sure You Want To Delete Plant " + plantList.get(spnrSelectPlant.getSelectedItemPosition()).getPlantName() + "?")
-                .setMessage(Html.fromHtml("All corresponding logs and notes will be deleted. This action cannot be undone."))
+                .setMessage(Html.fromHtml("All corresponding information and notes will be deleted. This action cannot be undone."))
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         int position = spnrSelectPlant.getSelectedItemPosition();

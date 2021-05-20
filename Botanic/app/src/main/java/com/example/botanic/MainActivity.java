@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     public static String ROOT_MEDIA_LOCATION,
             TEMP_MEDIA_LOCATION,
             PLANT_MEDIA_LOCATION,
-            LOG_MEDIA_LOCATION,
             DB_NAME = "botanic.db",
             DATABASE_DIRECTORY = "./data/data/" + BuildConfig.APPLICATION_ID + "/databases/";
 
@@ -60,9 +59,7 @@ public class MainActivity extends AppCompatActivity {
         plant_loc.mkdir();
         PLANT_MEDIA_LOCATION = plant_loc.getAbsolutePath() + "/";
 
-        File log_loc = new File(media_loc, "Logs");
-        log_loc.mkdir();
-        LOG_MEDIA_LOCATION = log_loc.getAbsolutePath() + "/";
+
 
         editTransaction("UpdateAllLists", null);
 
