@@ -378,7 +378,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Harvest"
+                                    android:text="Weeks to harvest"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
