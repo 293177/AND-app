@@ -13,4 +13,9 @@ MoSCoW requirements:
 
 • It won't have security matters.
 
-This requirements will be updated.
+Resources from the project:
+For picking images from the gallery and to take pictures from your camera I used this:
+https://pednekarshashank33.medium.com/android-10s-scoped-storage-image-picker-gallery-camera-d3dcca427bbf
+
+Link for the video presentation:
+https://youtu.be/koFUDGEPIn4
