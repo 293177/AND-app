@@ -28,32 +28,32 @@
                     android:id="@+id/txtHeader"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:layout_weight="7"
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center_vertical"
-                    android:text="Botanic"
+                    android:text="@string/botanic"
                     android:textColor="@color/darkTextColor"
                     android:textSize="24sp"
                     android:textStyle="bold" />
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="100dp"
+                    android:layout_marginEnd="100dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/plant"/>
+                    android:src="@drawable/plant"
+                    android:contentDescription="TODO" />
 
                 <Button
                     android:id="@+id/btnLogOut"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:background="#00FFFFFF"
-                    android:text="Log out"
+                    android:text="@string/log_out"
                     android:textColor="@color/darkTextColor"
                     android:textSize="20sp"
-                    android:onClick="signOut"
                     android:layout_gravity="right"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
                     android:layout_weight="1" />
             </LinearLayout>
 
@@ -65,8 +65,8 @@
                 android:layout_weight="10"
                 android:background="#00FFFFFF"
                 android:fontFamily="@font/architects_daughter"
-                android:paddingLeft="20sp"
-                android:text="Plant Info"
+                android:paddingStart="20sp"
+                android:text="@string/plant_info"
                 android:textColor="@color/darkTextColor"
                 android:textSize="40sp" />
 
@@ -77,8 +77,8 @@
                 android:layout_weight="10"
                 android:background="#00FFFFFF"
                 android:fontFamily="@font/architects_daughter"
-                android:paddingLeft="20sp"
-                android:text="Garden(work in progress...)"
+                android:paddingStart="20sp"
+                android:text="@string/garden_work_in_progress"
                 android:textColor="@color/darkTextColor"
                 android:textSize="40sp" />
 

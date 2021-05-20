@@ -18,7 +18,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/signinbanner" />
+        app:srcCompat="@drawable/signinbanner"
+        android:contentDescription="@string/sign_in_banner" />
 
     <Button
         android:id="@+id/button2"
@@ -27,7 +28,7 @@
         android:background="#00FFFFFF"
         android:fontFamily="@font/architects_daughter"
         android:onClick="signIn"
-        android:text="Let's start"
+        android:text="@string/let_s_start"
         android:textColor="@color/darkTextColor"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,14 +49,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/signinplant" />
+        app:srcCompat="@drawable/signinplant"
+        android:contentDescription="@string/sign_in_bottom_plant_banner" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/architects_daughter"
-        android:text="Botanic sign in"
+        android:text="@string/botanic_sign_in"
         android:textColor="@color/darkTextColor"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"

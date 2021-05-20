@@ -20,7 +20,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="10"
                 android:fontFamily="@font/architects_daughter"
-                android:text="Add a new Plant"
+                android:text="@string/add_a_new_plant"
                 android:textAlignment="center"
                 android:textColor="@color/darkTextColor"
                 android:textSize="40sp"
@@ -54,7 +54,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
-                                    android:text="General"
+                                    android:text="@string/general"
                                     android:textAlignment="center"
                                     android:textColor="@color/textColor"
                                     android:textSize="25sp"
@@ -71,7 +71,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Plant Name"
+                                    android:text="@string/plant_name"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -82,12 +82,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="name of plant"
+                                    android:hint="@string/name_of_plant"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -101,7 +102,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Picture"
+                                    android:text="@string/picture"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -113,7 +114,7 @@
                                     android:layout_gravity="center"
                                     android:layout_margin="5dp"
                                     android:layout_weight="30"
-                                    android:text="Take Picture"
+                                    android:text="@string/take_picture"
                                     android:backgroundTint="@color/textColor"
                                     android:textColor="@color/black"
                                     />
@@ -126,7 +127,7 @@
                                     android:layout_margin="5dp"
                                     android:layout_weight="30"
                                     android:backgroundTint="@color/textColor"
-                                    android:text="Open Gallery"
+                                    android:text="@string/open_gallery"
                                     />
 
                             </TableRow>
@@ -141,7 +142,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Season"
+                                    android:text="@string/season"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -152,12 +153,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="name of the season"
+                                    android:hint="@string/name_of_the_season"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -170,7 +172,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Watering"
+                                    android:text="@string/watering"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -181,12 +183,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="watering level"
+                                    android:hint="@string/watering_level"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -199,7 +202,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Sunlight"
+                                    android:text="@string/sunlight"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -210,12 +213,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="sunlight level"
+                                    android:hint="@string/sunlight_level"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -228,7 +232,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Temperature"
+                                    android:text="@string/temperature"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -239,12 +243,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="temperature degrees"
+                                    android:hint="@string/temperature_degrees"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -257,7 +262,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Life Span"
+                                    android:text="@string/life_span"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -268,12 +273,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="life span of plant"
+                                    android:hint="@string/life_span_of_plant"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -286,7 +292,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Weeks to harvest"
+                                    android:text="@string/weeks_to_harvest"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -297,12 +303,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="amount of weeks"
+                                    android:hint="@string/amount_of_weeks"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -315,7 +322,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Origin"
+                                    android:text="@string/origin"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -326,12 +333,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="origin of plant"
+                                    android:hint="@string/origin_of_plant"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -344,7 +352,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center"
-                                    android:text="Pollination"
+                                    android:text="@string/pollination"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -355,12 +363,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="Does the plant need pollination to grow?"
+                                    android:hint="@string/does_the_plant_need_pollination_to_grow"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
 
                             </TableRow>
                             <TableRow
@@ -374,7 +383,7 @@
                                     android:layout_weight="40"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center"
-                                    android:text="Cat Friendly"
+                                    android:text="@string/cat_friendly"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -385,12 +394,13 @@
                                     android:layout_weight="60"
                                     android:ems="10"
                                     android:gravity="center_vertical"
-                                    android:hint="Is the plant suitable for a cat?"
+                                    android:hint="@string/is_the_plant_suitable_for_a_cat"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="1"
                                     android:maxLength="100"
                                     android:maxLines="1"
-                                    android:scrollHorizontally="false" />
+                                    android:scrollHorizontally="false"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                             <TableRow
                                 android:layout_width="match_parent"
@@ -402,7 +412,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="100"
                                     android:fontFamily="@font/architects_daughter"
-                                    android:text="Notes"
+                                    android:text="@string/notes"
                                     android:textAlignment="center"
                                     android:textColor="@color/textColor"
                                     android:textSize="20sp"
@@ -419,13 +429,14 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="100"
                                     android:ems="10"
-                                    android:hint="notes (optional)"
+                                    android:hint="@string/notes_optional"
                                     android:inputType="textCapSentences|textMultiLine"
                                     android:lines="3"
                                     android:maxLength="1000"
                                     android:maxLines="3"
                                     android:scrollHorizontally="false"
-                                    android:textAlignment="center" />
+                                    android:textAlignment="center"
+                                    android:importantForAutofill="no" />
                             </TableRow>
                         </TableLayout>
 
@@ -439,14 +450,14 @@
 
                 <Button
                     android:id="@+id/btnSavePlant"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="50"
                     android:background="#00FFFFFF"
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="bottom|center"
-                    android:paddingLeft="5dp"
-                    android:text="Save"
+                    android:paddingStart="5dp"
+                    android:text="@string/save"
                     android:textColor="@color/darkTextColor"
                     android:textSize="40sp" />
             </LinearLayout>

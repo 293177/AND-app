@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/background"
-        android:contentDescription="background Color for the start menu" />
+        android:contentDescription="@string/background_color_for_the_start_menu" />
 
     <LinearLayout
         android:id="@+id/outerLinearLayout"
@@ -33,7 +33,7 @@
             <LinearLayout
                 android:id="@+id/scrollLinearLayout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -48,7 +48,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/woodsign" />
+                        app:srcCompat="@drawable/woodsign"
+                        android:contentDescription="@string/wood_sign" />
 
                     <TextView
                         android:id="@+id/txtTitle"
@@ -56,7 +57,7 @@
                         android:layout_height="match_parent"
                         android:fontFamily="casual"
                         android:gravity="center"
-                        android:text="Botanic"
+                        android:text="@string/botanic"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="50sp"
@@ -72,8 +73,8 @@
                     android:background="#00FFFFFF"
                     android:fontFamily="@font/architects_daughter"
                     android:onClick="toMainMenu"
-                    android:paddingLeft="20sp"
-                    android:text="Start"
+                    android:paddingStart="20sp"
+                    android:text="@string/start"
                     android:textColor="@color/darkTextColor"
                     android:textSize="40sp" />
 
@@ -86,7 +87,8 @@
             android:layout_height="0dp"
             android:layout_weight="30"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/wheelbarrow" />
+            app:srcCompat="@drawable/wheelbarrow"
+            android:contentDescription="@string/wheelbarrow" />
 
     </LinearLayout>
 

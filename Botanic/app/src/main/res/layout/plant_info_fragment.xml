@@ -24,7 +24,7 @@
                 android:orientation="horizontal">
                 <Spinner
                     android:id="@+id/spnrSelect"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="90"/>
                 <ImageView
@@ -33,7 +33,8 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:layout_margin="5dp"
-                    android:src="@drawable/ic_baseline_add_24"/>
+                    android:src="@drawable/ic_baseline_add_24"
+                    android:contentDescription="Add plant button" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -47,7 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    android:contentDescription="Arrow back" />
 
                 <Button
                     android:id="@+id/btnPrev"
@@ -57,7 +59,7 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="left|center_vertical"
                     android:paddingLeft="5sp"
-                    android:text="Previous"
+                    android:text="@string/previous"
                     android:textColor="#005720"
                     android:textSize="22sp" />
 
@@ -69,7 +71,7 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center|right|center_vertical"
                     android:paddingLeft="5sp"
-                    android:text="Next"
+                    android:text="@string/next"
                     android:textColor="#005720"
                     android:textSize="22sp" />
                 <ImageView
@@ -78,7 +80,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:contentDescription="arrow front" />
 
             </LinearLayout>
             <LinearLayout
@@ -101,7 +104,8 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/startmenu_background_plant"/>
+                        android:src="@drawable/startmenu_background_plant"
+                        android:contentDescription="empty plant" />
                     <TableLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
@@ -121,7 +125,7 @@
                                 android:layout_weight="50"
                                 android:fontFamily="@font/architects_daughter"
                                 android:gravity="center|right"
-                                android:text="Seasons"
+                                android:text="@string/season"
                                 android:textColor="#4CAF50"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -130,7 +134,7 @@
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
-                                android:text="---"
+                                android:text="@string/empty"
                                 android:layout_gravity="center"
                                 android:textAlignment="center"
                                 android:textColor="#4CAF50"
@@ -149,7 +153,7 @@
                                 android:layout_weight="50"
                                 android:fontFamily="@font/architects_daughter"
                                 android:gravity="center|right"
-                                android:text="Watering"
+                                android:text="@string/watering"
                                 android:textColor="#4CAF50"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -158,7 +162,7 @@
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
-                                android:text="---"
+                                android:text="@string/empty"
                                 android:layout_gravity="center"
                                 android:textAlignment="center"
                                 android:textColor="#4CAF50"
@@ -177,7 +181,7 @@
                                 android:layout_weight="50"
                                 android:fontFamily="@font/architects_daughter"
                                 android:gravity="center|right"
-                                android:text="Sunlight"
+                                android:text="@string/sunlight"
                                 android:textColor="#4CAF50"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -186,7 +190,7 @@
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
-                                android:text="---"
+                                android:text="@string/empty"
                                 android:layout_gravity="center"
                                 android:textAlignment="center"
                                 android:textColor="#4CAF50"
@@ -209,7 +213,7 @@
                     android:background="#ECD5B8">
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
                         <TableLayout
                             android:layout_width="match_parent"
@@ -225,7 +229,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
-                                    android:text="General"
+                                    android:text="@string/general"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="20sp"
@@ -243,7 +247,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Temperature"
+                                    android:text="@string/temperature"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -253,7 +257,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:layout_gravity="center"
-                                    android:text="---"
+                                    android:text="@string/empty"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"/>
@@ -270,7 +274,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Life Span"
+                                    android:text="@string/life_span"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -280,7 +284,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:layout_gravity="center"
-                                    android:text="---"
+                                    android:text="@string/empty"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"/>
@@ -297,7 +301,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Pollination"
+                                    android:text="@string/pollination"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -307,7 +311,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:layout_gravity="center"
-                                    android:text="---"
+                                    android:text="@string/empty"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"/>
@@ -324,7 +328,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Cat Friendly"
+                                    android:text="@string/cat_friendly"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -334,7 +338,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:layout_gravity="center"
-                                    android:text="---"
+                                    android:text="@string/empty"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"/>
@@ -351,7 +355,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Origin"
+                                    android:text="@string/origin"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -361,7 +365,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:layout_gravity="center"
-                                    android:text="---"
+                                    android:text="@string/empty"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"/>
@@ -378,7 +382,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:gravity="center|right"
-                                    android:text="Weeks to harvest"
+                                    android:text="@string/weeks_to_harvest"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -388,7 +392,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:layout_gravity="center"
-                                    android:text="---"
+                                    android:text="@string/empty"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"/>
@@ -403,7 +407,7 @@
                                     android:layout_weight="50"
                                     android:fontFamily="@font/architects_daughter"
                                     android:textColor="#4CAF50"
-                                    android:text="Notes"
+                                    android:text="@string/notes"
                                     android:textSize="20sp"
                                     android:textStyle="bold"
                                     android:gravity="center"/>
@@ -419,7 +423,7 @@
                                     android:layout_gravity="center"
                                     android:layout_weight="50"
                                     android:fontFamily="sans-serif"
-                                    android:text="---"
+                                    android:text="@string/empty"
                                     android:textAlignment="center"
                                     android:textColor="#4CAF50"
                                     android:textSize="18sp"/>
@@ -431,7 +435,7 @@
                             android:layout_height="wrap_content"
                             android:background="#00FFFFFF"
                             android:fontFamily="@font/architects_daughter"
-                            android:text="Delete Plant"
+                            android:text="@string/delete_plant"
                             android:textColor="@android:color/holo_red_dark"
                             android:textSize="40sp" />
                     </LinearLayout>

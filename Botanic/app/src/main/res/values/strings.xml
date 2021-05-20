@@ -2,5 +2,49 @@
     <string name="app_name">Botanic</string>
     <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
     <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+    <string name="add_a_new_plant">Add a new Plant</string>
+    <string name="general">General</string>
+    <string name="season">Season</string>
+    <string name="sunlight_level">sunlight level</string>
+    <string name="save">Save</string>
+    <string name="notes_optional">notes (optional)</string>
+    <string name="is_the_plant_suitable_for_a_cat">Is the plant suitable for a cat?</string>
+    <string name="cat_friendly">Cat Friendly</string>
+    <string name="does_the_plant_need_pollination_to_grow">Does the plant need pollination to grow?</string>
+    <string name="pollination">Pollination</string>
+    <string name="origin_of_plant">origin of plant</string>
+    <string name="origin">Origin</string>
+    <string name="amount_of_weeks">amount of weeks</string>
+    <string name="weeks_to_harvest">Weeks to harvest</string>
+    <string name="life_span_of_plant">life span of plant</string>
+    <string name="life_span">Life Span</string>
+    <string name="temperature_degrees">temperature degrees</string>
+    <string name="temperature">Temperature</string>
+    <string name="sunlight">Sunlight</string>
+    <string name="watering_level">watering level</string>
+    <string name="watering">Watering</string>
+    <string name="name_of_the_season">name of the season</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="name_of_plant">name of plant</string>
+    <string name="picture">Picture</string>
+    <string name="plant_name">Plant Name</string>
+    <string name="plant_info">Plant Info</string>
+    <string name="garden_work_in_progress">Garden(work in progress...)</string>
+    <string name="log_out">Log out</string>
+    <string name="botanic">Botanic</string>
+    <string name="delete_plant">Delete Plant</string>
+    <string name="empty">---</string>
+    <string name="notes">Notes</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="botanic_sign_in">Botanic sign in</string>
+    <string name="let_s_start">Let\'s start</string>
+    <string name="sign_in_banner">Sign in banner</string>
+    <string name="sign_in_bottom_plant_banner">Sign in bottom plant banner</string>
+    <string name="start">Start</string>
+    <string name="background_color_for_the_start_menu">background Color for the start menu</string>
+    <string name="wood_sign">Wood sign</string>
+    <string name="wheelbarrow">Wheelbarrow</string>
 
 </resources>
